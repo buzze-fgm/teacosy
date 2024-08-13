@@ -285,6 +285,16 @@ header .logo {
     align-items: center;
 }
 
+.contact a {
+    color: white;
+    padding: 10px 0;
+}
+
+.contact a:hover {
+    color:aqua;
+}
+
+
 @media only screen and (max-width: 550px) {
     .contact h2 {
         font-size: 2.5rem;
@@ -294,6 +304,7 @@ header .logo {
         font-size: 1.1rem;
         font-weight: normal;
     }
+
 }
 
 /* footer */
